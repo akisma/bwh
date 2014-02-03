@@ -169,16 +169,6 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-    .main-container {
-        background: transparent url('../img/lightbulb.jpeg') no-repeat 0 0;
-        background-size: cover;
-    }
-
-
-    article {
-        background-color: rgba(154, 162, 172, 0.5);
-        padding: 0 20px;
-    }
 
 
 
@@ -280,6 +270,77 @@ nav a:hover {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
         overflow: scroll;
+    }
+
+    .mini-header {
+        width: 35%;
+        border-bottom: 20px solid #043c64;
+        background: #006bb6;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+    }
+
+    .mini-header nav ul {
+        width: 100%;
+    }
+
+    .mini-header nav ul li {
+        display: inline-block;
+        width: 24%;
+    }
+
+    .mini-header nav {
+        width: 100%;
+    }
+
+    .mini-header nav a {
+        width: 100%;
+    }
+
+    nav a:hover {
+        background-color: #008cee;
+        text-decoration: none;
+    }
+
+    .header-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .black-and-white {
+        background: transparent url('../img/black-white-wink-elvis.jpeg') no-repeat 0 38%;
+
+        height: 20em;
+    }
+
+    .singing-at-each-other {
+        background: transparent url('../img/singing-at-each-other.jpeg') no-repeat 0 30%;
+        background-size: cover;
+
+        height: 45em;
+    }
+
+    .hands {
+        background: transparent url('../img/jess.jpg') no-repeat 0 64%;
+        background-size: cover;
+
+        height: 30em;
+    }
+
+    .main-container {
+        background: transparent url('../img/lightbulb.jpeg') no-repeat 0 0;
+        background-size: cover;
+
+        height: 50em;
+    }
+
+    article {
+        background-color: rgba(154, 162, 172, 0.5);
+        padding: 0 20px;
     }
 }
 

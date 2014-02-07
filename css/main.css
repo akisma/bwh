@@ -88,7 +88,8 @@ body {
     background: #006bb6;
 }
 
-.main aside {
+.main aside,
+.main aside form {
     background-color: rgba(0, 107, 182, .8);
 }
 
@@ -169,10 +170,28 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+    .main-container a {
+        color: #006bb6;
+        text-decoration: none;
+        font-family: cubano;
+    }
 
+    /* rest of social styles vary by media query */
 
+    .facebook {
+        background: transparent url('../img/facebook.png') no-repeat 0 0;
+        background-size: cover;
+    }
 
+    .twitter {
+        background: transparent url('../img/twitter.png') no-repeat 0 0;
+        background-size: cover;
+    }
 
+    .youtube {
+        background: transparent url('../img/youtube.png') no-repeat 0 0;
+        background-size: cover;
+    }
 
 
 
@@ -184,6 +203,22 @@ nav a:hover {
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
+
+    .social-icons {
+        position: fixed;
+        height: 41px;
+        width: auto;
+        background-color: rgb(255, 255, 255, .4);
+        bottom: 0;
+        left: 0;
+    }
+
+    .social-icon {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        margin: 8px;
+    }
 
 /* ====================
     INTERMEDIATE: Menu
@@ -258,6 +293,22 @@ nav a:hover {
         float: right;
         width: 28%;
     }
+
+    .social-icons {
+        position: fixed;
+        height: 42px;
+        width: auto;
+        background-color: rgb(255, 255, 255, .4);
+        bottom: 0;
+        left: 0;
+    }
+
+    .social-icon {
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        margin: 5px;
+    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -309,6 +360,7 @@ nav a:hover {
         top: 0;
         left: 0;
         width: 100%;
+        z-index: 9;
     }
 
     .black-and-white {
@@ -341,6 +393,22 @@ nav a:hover {
     article {
         background-color: rgba(154, 162, 172, 0.5);
         padding: 0 20px;
+    }
+
+    .social-icons {
+        position: fixed;
+        height: 84px;
+        width: auto;
+        background-color: rgb(255, 255, 255, .4);
+        bottom: 0;
+        left: 0;
+    }
+
+    .social-icon {
+        display: inline-block;
+        height: 64px;
+        width: 64px;
+        margin: 10px;
     }
 }
 

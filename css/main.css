@@ -102,9 +102,10 @@ body {
 .title {
     color: white;
     font-family: "cubano";
+    margin-left: 3%;
 }
 
-.main-container .dates a {
+.dates p a {
     color: white;
 }
 
@@ -184,10 +185,11 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-    .main-container a {
+    .main a {
         color: #006bb6;
         text-decoration: none;
         font-family: cubano;
+        font-size: 1.3em;
     }
 
 
@@ -229,7 +231,7 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 14%;
+        width: 11%;
         margin: 0 1.7%;
         padding: 25px 2%;
         margin: 0;
@@ -287,7 +289,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: 43%
     }
 
 /* ============
@@ -313,7 +315,6 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
         overflow: scroll;
     }
@@ -324,7 +325,8 @@ nav a:hover {
         background: #006bb6;
         position: fixed;
         top: 25px;
-        right: 25px;
+        right: 100px;
+        display: none;
     }
 
     .mini-header nav ul {
@@ -350,7 +352,7 @@ nav a:hover {
     }
 
     .header-container {
-        display: none;
+        display: block;
         position: fixed;
         top: 0;
         left: 0;
@@ -384,10 +386,16 @@ nav a:hover {
         height: 100%;
     }
 
+    .main {
+        position: absolute;
+        margin: 9em 0 0 6em;
+    }
+
     article {
         background-color: rgba(154, 162, 172, 0.7);
         padding: 0 20px;
     }
+
 }
 
 /* ==========================================================================

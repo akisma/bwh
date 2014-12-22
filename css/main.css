@@ -304,6 +304,7 @@ nav a:hover {
     .main aside {
         float: right;
         width: 28%;
+        clear: right;
     }
 
 }
@@ -360,6 +361,14 @@ nav a:hover {
         z-index: 9;
     }
 
+    .bwh-facebook,
+    .bwh-youtube,
+    .bwh-twitter {
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+
     .black-and-white {
         background: transparent url('../img/black-white-wink-elvis.jpeg') no-repeat 0 38%;
 
@@ -377,7 +386,7 @@ nav a:hover {
         background: transparent url('../img/jess.jpg') no-repeat 0 64%;
         background-size: cover;
 
-        height: 30em;
+        height: 36em;
     }
 
     .main-container {

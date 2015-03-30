@@ -192,6 +192,12 @@ nav a:hover {
         font-size: 1.3em;
     }
 
+    footer a {
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
 
 
 

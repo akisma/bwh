@@ -1,0 +1,406 @@
+/* colors */
+
+.blue {
+	background: #006bb6;
+}
+
+.blue-text {
+	color: #006bb6;
+}
+
+.white {
+	background: #ffffff;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+.fb {
+	background: transparent url('../img/Flat-Social-Icons_03.gif') no-repeat 0 7px;
+	text-indent: -9999px;
+}
+
+.twitter {
+	background: transparent url('../img/Flat-Social-Icons_05.gif') no-repeat 0 7px;
+	text-indent: -9999px;
+}
+
+.seo-hide {
+	display: none;
+}
+
+.button {
+	background-color: rgba(107, 107, 107, .9);
+	color: white;
+	padding: 7px 10px 5px 10px;
+	border-radius: 5px;
+	border: 2px solid rgba(137, 137, 137, 1);
+}
+
+/* background stuff */
+
+body {
+	position: relative;
+}
+
+.slide1 {
+	background: transparent url('../img/slides/panorama-blue-brown.jpg') repeat-y 0 0;
+}
+
+.slide2 {
+	background: transparent url('../img/slides/panorama-orange.jpg') repeat-y 0 0;
+}
+
+.slide3 {
+	background: transparent url('../img/slides/panorama-purple.jpg') repeat-y 0 0;
+}
+
+.slide4 {
+	background: transparent url('../img/slides/panorama-white-blue.jpg') repeat-y 0 0;
+}
+
+/* global layout classes */
+
+.wrapper {
+	width: 80%;
+	/* media query */
+}
+
+/* structural elements */
+
+.top-menu {
+	background-color: rgba(107, 107, 107, .9);
+	z-index: 100;
+	overflow: auto;
+	/*MEDIA QUERY*/
+}
+
+.top-menu ul {
+	padding: 0;
+	margin: 0 auto;
+	/*width: 51em; MEDIA QUERY */
+}
+
+.top-menu li {
+	display: inline-block;
+	height: 50px;
+	font-family: 'fira-sans';
+	float: left;
+	clear: both;
+	/*MEDIA QUERY*/
+}
+
+.top-menu a {
+	/* MEDIA QUERY */
+	display: inline-block;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.top-menu .first-char {
+	font-weight: 700;
+}
+
+.top-menu a:hover {
+	background-color: rgba(127, 127, 127, .9);
+}
+
+.top-menu a.fb:hover,
+.top-menu a.twitter:hover {
+	background-color: rgba(107, 107, 107, .9);
+}
+
+.top-menu .go-home {
+	background: transparent url('../img/logo.png') no-repeat 0 0;
+	background-size: cover;
+	text-indent: -9999px;
+	width: 3em;
+	height: 1.4em;
+	/*position: absolute; MEDIA QUERY */
+	margin: 0 auto;
+	display: block;
+}
+
+.main {
+	position: relative;
+	/*top: 4em; MEDIA QUERY */
+}
+
+.main a,
+.main a:visited {
+	color: #222222;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.main a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	height: 50px;
+	position: fixed; bottom: 0;
+	background-color: rgba(107, 107, 107, .8);
+	z-index: 100;
+	font-family: 'fira-sans';
+	font-size: 10px;
+}
+
+.footer p {
+	padding-top: 10px;
+	margin: 10px auto;
+	/*width: 63em; MEDIA QUERY */
+}
+
+.footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* background specific */
+.body-slideshow {
+	/* TODO MAKE IT LIKE THIS EVENTUALLY background: transparent url('../img/slides/fill-blue-brown.jpg') 0 0 no-repeat;
+	background-size: cover;*/
+	/*width: 100%; MEDIA QUERY */
+	/*height: 100em; MEDIA QUERY */
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.body-slideshow .slide {
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+}
+
+/* slideshow widget */
+
+.logo {
+	position: relative;
+	z-index: 50;
+	margin: 0 auto;
+	display: block;
+}
+
+.slideshow {
+	
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	border-radius: 4px;
+}
+
+.slideshow .active, .photos .active {
+	opacity: 1;
+}
+
+/* photo specific */
+
+.photos {
+	margin: 0 auto;
+	width: 1144px;
+}
+
+
+/******* PAGEZZZZZZZZ ********/
+
+/* EACH PAGE IS A PANE, THEN HAS INDIVIDUAL STYLES AS NEEDED */
+.pane {
+	background-color: rgba(107, 107, 107, .6);
+	padding: 1em 2em;
+	border-radius: 5px;
+	font-family: "fira-sans";
+	color: #FFFFFF;
+	border: 2px solid #666666;
+	margin: 0 7em;
+}
+
+.home .feature {
+	text-align: center;
+  	color: #FFFFFF;
+}
+
+.music {
+
+	/* media query */
+}
+
+.music iframe {
+	margin: 0 auto;
+  	display: block;
+  	width: 300px !important;
+}
+
+.bwh-video {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 36em;
+}
+
+.shows {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+/*** MAILCHIMP OVERRIDES */
+
+.mc-field-group {
+	margin-bottom: 1em;
+}
+
+/* SHIT TO HIDE/CHANGE ON MOBILE */
+
+.home h2 {
+	margin: .83em 1em;
+  	line-height: 1.3em;
+}
+
+.pane {
+	margin: 0 1em;
+}
+
+.photos {
+	display: none;
+}
+
+.logo {
+	width: 380px;
+}
+
+.top-menu {
+	position: relative;
+}
+
+.top-menu ul li {
+	display: inline;
+	clear: none;
+	margin-left: 0;
+}
+
+.top-menu ul li.fb-nav {
+	margin-left: 1.5em;
+	clear: both;
+}
+
+.go-home {
+	position: static;
+}
+
+.body-slideshow {
+	height: 68em;
+	width: 26em;
+}
+
+.footer .credits {
+	width: auto;
+}
+
+.top-menu {
+	width: 100%;
+}
+
+.top-menu ul {
+	width: 90%;
+}
+
+.feature {
+	width: 26em;
+}
+
+/* LARGE FORMAT SPECIFIC STYLES */
+
+@media only screen and (min-width: 768px) {
+	.wrapper {
+		padding: 0 10%;
+	}
+
+	.main {
+		top: 4em;
+	}
+
+	.home h2 {
+		line-height: 1em;
+		margin: .83em 0;
+	}
+
+	.body-slideshow {
+		height: 100em;
+		width: 100%;
+	}
+
+	.pane {
+		margin: 0 auto;
+	}
+
+	.photos {
+		display: block;
+	}
+
+	.shows {
+		width: 36em;
+		margin: 0 auto;
+	}
+
+	.about {
+		margin: 0 13em;
+	}
+
+	.music {
+		width: 350px;
+	}
+
+	.press {
+		width: 70%;
+	}
+
+	.logo {
+		border: 1px solid #444444;
+		height: 498px;
+		width: 1143px;
+		border-radius: 5px;
+	}
+
+	.top-menu {
+		position: absolute;
+		width: 80%;
+	}
+
+	.top-menu a {
+		display: block;
+	}
+
+	.top-menu ul {
+		width: 85%;
+	}
+
+	.top-menu ul li {
+		display: inline-block;
+		float: none;
+		margin-left: 1.5em;
+	}
+
+	.go-home {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.footer .credits {
+		width: 63em;
+	}
+
+	.feature {
+		width: auto;
+	}
+}

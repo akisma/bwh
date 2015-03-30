@@ -11,157 +11,151 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-
-            #mc_embed_signup_form {
-                padding: 0;
-            }
-        </style>
+        <link rel="stylesheet" href="css/new-theme.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        
         <script type="text/javascript" src="//use.typekit.net/iqi3gxj.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        
+
     </head>
     <body>
-        <!-- 
-        <div class="mini-header">
-            <nav>
-                <ul>
-                    <li><a href="http://bandwithouthands.bandcamp.com/">listen</a></li>
-                    <li><a href="http://www.instagram.com/bandwithouthands">look</a></li>
-                    <li><a href="https://www.songkick.com/artists/7869979-band-without-hands">shows</a></li>
-                    <li><a class="" href="http://www.facebook.com/bandwithouthands">F</a></li>
-                    <li><a class="" href="http://www.twitter.com/bandsanshands">T</a></li>
-                </ul>
-            </nav>
-        </div> -->
 
-    <!-- NOTES
+    <div class="top-menu wrapper">
+        <a class="go-home" href="/">HOME</a>
+        <ul>
+            <li><a class="js-piece-load" href="pieces/music.html">MUSIC</a></li>
+            <li><a class="js-piece-load" href="pieces/video.html">VIDEO</a></li>
+            <li><a class="js-piece-load" href="pieces/shows.html">SHOWS</a></li>
+            <li><a href="http://bandwithouthands.bandcamp.com/merch">STORE</a></li>
+            <li><a class="js-piece-load" href="pieces/press.html">PRESS</a></li>
+            <li><a class="js-piece-load" href="pieces/about.html">ABOUT</a></li>
+            <li class="fb-nav"><a class="fb" href="http://www.facebook.com/bandwithouthands">Facebook</a></li>
+            <li class="fb-twitter"><a class="twitter" href="http://www.twitter.com/bandsanshands">Twitter</a></li>
+        </ul>
+    </div>
 
-    1. press page
-    2. past shows page
-    3. news page with extended list
-    4. top 3 news highlighted here
-    5. better visibility for mailing list
-        - 'free track'?
-        - topspin?
-    6. better visibility for social icons
-    7. new promo pic?
-    8. lift logo from shirt on shannon's shot?
-    9. social widgets for more content (maybe?)
-    10. something else cool... animation/etc
-    11. add WP blog via control panel - blog about shows, releases we like etc?
-    12. add citywide blackout, boston emissions, wmfo show links
+    <!-- this controls the background -->
+    <div class="js-slideshow slideshow body-slideshow">
+        <img class="slide" src="img/slides/panorama-purple.jpg" alt"purple" />
+        <img class="slide" src="img/slides/panorama-white-blue.jpg" alt"white-blue" />
+        <img class="slide" src="img/slides/panorama-orange.jpg" alt"orange" />
+        
+        <img class="js-active active slide" src="img/slides/panorama-blue-brown.jpg" alt="blue" />
+    </div>
 
-    -->
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <h1 class="title">Band Without Hands</h1>
-                <nav>
-                    <ul>
-                        <li><a href="http://bandwithouthands.bandcamp.com/">listen</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCv3W2KBJPEH8gM_t4uN2ZmQ">watch</a></li>
-                        <li><a href="https://www.songkick.com/artists/7869979-band-without-hands">shows</a></li>
-                        <li><a href="http://bandwithouthands.bandcamp.com/merch">store</a></li>
-                        <li><a href="http://www.facebook.com/bandwithouthands">FB</a></li>
-                        <li><a href="http://www.twitter.com/bandsanshands">T</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <div class="seo-hide">
+        <h1>Band Without Hands</h1>
+        <h2>a boston rock band with synth and metal undertones and catchy melodies</h2>
+    </div>
 
-        <div class="main wrapper clearfix">
-            <article>
-                <h1>Expressive Synth Punk!</h1>
-                <h3>LATEST ALBUM: <a href="https://itunes.apple.com/us/album/epochalypse-ep/id880641015">iTunes</a> - <a href="bandwithouthands.bandcamp.com/album/epochalypse">bandcamp</a></h3>
+    <div class="main js-content">
+        <!-- nice big photo bg here - perhaps even slowly fade through the press shots/live shots OR make it interactive? -->
+
+        <!-- over bg photo, BWH logo with good transparency -->
+        <!-- make into SVG if possible, and make the triangles spin on mouseover of menu items at top -->
+
+        <!-- possibly attach event listener/listeners to change the hue of the picture slightly depending on where mouse is on picture -->
+        <div class="home">
+            <img class="logo" src="img/logo.png" alt="BWH" />
+            
+            <div class="js-photos photos">
+                <img class="slide" src="img/slides/photo-1.jpg" alt"bwh" /> 
+                <!-- <img class="slide" src="img/slides/photo-2.jpg" alt"bwh" /> -->
+                <!-- <img class="slide" src="img/slides/photo-3.jpg" alt"bwh" /> -->
+                <img class="slide" src="img/slides/photo-4.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/photo-5.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/02.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/03.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/08.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/04.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/05.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/17.jpg" alt"bwh" />
                 
-                <h2>NEWS!</h2>
-                <section>
-                    <h2>BAND WITHOUT BORDERS, featuring a HELLO DESPAIR REMIX - by <a href="http://www.facebook.com/bigtimekillmusic">BIG TIME KILL!</a></h2>
-                    <p>Big Time Kill did a big time killer remix of Hello Despair - <a href="https://bandwithouthands.bandcamp.com/track/hello-despair-big-time-kill-remix">grab it here</a> - and we are donating 100% of sales to <a href="http://www.doctorswithoutborders.org/">Doctors Without Borders</a> to help with the Ebola crisis.</p>
-                </section>
-                <section>
-                    <h2>A NIN Halloween!</h2>
-                    <p>We got some great coverage from <a href="http://www.vanyaland.com/2014/11/05/wanna-cover-like-animal-watch-band-without-hands-become-nine-inch-nails-allston/">Vanyaland</a> on our Nine Inch Nails tribute that happened at O'Brien's on Halloween... check out the <a href="http://www.vanyaland.com/2014/11/05/wanna-cover-like-animal-watch-band-without-hands-become-nine-inch-nails-allston/">article</a>, <a href="https://www.facebook.com/media/set/?set=a.10152492479922947.1073741836.22893747946&type=1">photos</a> (THANKS JILL!), and <a href="http://www.youtube.com/playlist?list=PLnA4ZaZAFzFceQ7UWxL7N72FoY9O9G-4c">videos</a>!
-                </section>  
-                <section>
-                    <h2>Our Merch store is OPEN!</h2>
-                    <p>Thanks <a href="http://bandwithouthands.bandcamp.com/merch">BANDCAMP!</a> Check out our t shirts, we're super excited about them. Also any monies provided will go towards pressing vinyl for our next offering, out before November... there are only a few t-shirts this printing, so <a href="http://bandwithouthands.bandcamp.com/merch">grab one while you can</a>!</p>
-                </section>
-                <section>
-                    <h2>Hear us on Citywide Blackout, WEMF, on 9/18</h2>
-                    <p>We'll be playing a live set on <a href="http://wemfradio.com/shows/citywide-blackout/">Citywide Blackout</a> on <a href="http://wemfradio.com">WEMF Radio</a>. Tune in!</p>
-                </section>
-                <section>
-                    <h2>Band Without Hands featured on the Boston Emissions/WZLX Watch List!</h2>
-                    <p>Anngelle Wood was so kind as to make us July's <a href="http://wzlx.cbslocal.com/2014/07/24/thewatchlistjuly2014/">Watch List</a> band - we're so stoked!</p>
-                </section>
-                <!-- <section>
-                    <h2>Band Without Hands LIVE on Boston Emissions!</h2>
-                    <p>We've been asked to play live in-studio on <a href="http://wzlx.cbslocal.com/show/boston-emissions/">Boston Emissions</a> this Sunday, July 20th! Catch the show from 10pm - 12am, with our set somewhere near 11pm.</p>
-                </section>
-                <section>
-                    <h2>Airplay on Boston Emissions!</h2>
-                    <p>Anngelle Wood was so kind to play us on <a href="http://wzlx.cbslocal.com/show/boston-emissions/">Boston Emissions</a>, the killer local music show that blasts out of WZLX on Sunday nights. <a href="http://wzlx.cbslocal.com/2014/07/15/be71314/">VOTE FOR US</a> to stay in the Top 3 - and stay on the air!</a></p>
-                </section> -->
-                <section>
-                    <h2>QWIMB.ORG Interview</h2>
-                    <p><a href="http://qwimb.org/2014/05/15/meet-band-without-hands/">Jess spoke with Queer Women in Music Boston</a> on a variety of topics relating to Boston's gay music scene, band influences, and inspirations.</p>
-                </section>
-                <!-- <section>
-                    <h2>Full Scene Ahead ROMPETITION Finals!</h2>
-                    <p>We won our round at the Dover Brick House and are headed to the Middle East Upstairs Friday, June 20th to give our best efforts alongside 9 other great bands! We are stoked to be a part of it and wish everybody good luck! Come cheer us on! Our set is at 10PM SHARP!</p>
-                </section> -->
-                <section>
-                    <h2>EPochalypse now on iTunes, Spotify</h2>
-                    <p>Our debut EP, EPochalypse, is now available on <a href="https://itunes.apple.com/us/artist/band-without-hands/id880641016">iTunes</a> and <a href="http://open.spotify.com/artist/5NgStL5SxaUqjRZt7232uQ">Spotify</a>. Give us a listen and get those play counts up!</p>
-                </section>
-                <section>
-                    <h2>Vanyaland Interview</h2>
-                    <p><a href="http://www.vanyaland.com/2014/04/28/interview-band-without-hands-bands-without-hands-music-make-video-games/">We spoke with Barry Thompson of Vanyaland</a> over German biers and Leberwurst at delicious <a href="http://bronwynrestaurant.com/">Bronwyn</a>. We totally say totally too much and curse a lot. Fun was had.</p>
-                </section>
-                <!-- <section>
-                    <h2>Making of EPochalypse Videos</h2>
-                    <p>The <a href="https://www.youtube.com/watch?v=Tn6CbH7R4dE">first one</a> is here!</p>
-                </section>
-                <section>
-                    <h2>New EP out 4/15</h2>
-                    <p>It's here!!!! <a href="http://bandwithouthands.bandcamp.com/album/epochalypse">STREAM IT, BUY IT</a></p>
-                    <p>We spent December and January recording four kickass tracks to share with you - <a href="http://www.twitter.com/bandsanshands">follow us on Twitter</a>, <a href="http://www.facebook.com/bandwithouthands">like us on Facebook</a> and find us on <a href="http://www.instagram.com/bandwithouthands">inshtagramz</a> to catch special "making of" videos we will be posting from time to time.</p>
-                </section> -->
-                <section>
-                    <h2>EPochalypse Demos</h2>
-                    <p><a href="https://soundcloud.com/bandwithouthands/sets/new-demos">Check out the demos</a> that lead to the eventual live set and songs captured on our debut EP.</p>
-                </section>
-            </article>
+                <img class="slide" src="img/slides/12.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/10.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/11.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/13.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/09.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/15.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/06.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/16.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/14.jpg" alt"bwh" />
+                <img class="slide" src="img/slides/photo-6.jpg" alt"bwh" /> 
+                
+                <img class="js-active slide" src="img/slides/07.jpg" alt"bwh" />
+            </div>
 
+            <div class="feature">
+                <h2>LATEST ALBUM: <a href="https://itunes.apple.com/us/album/epochalypse-ep/id880641015">iTunes</a> - <a href="bandwithouthands.bandcamp.com/album/epochalypse">bandcamp</a> LATEST VIDEO: <a href="https://www.youtube.com/watch?v=LdoCXr9MBGc">Hanuman</a></h2>
+
+                <div id="mc_embed_signup">
+                    <form action="http://bandwithouthands.us3.list-manage1.com/subscribe/post?u=b06f19e4a5b5c9c20d101b068&amp;id=804a44edf2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Join BWH mailing list:</label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                    
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_b06f19e4a5b5c9c20d101b068_804a44edf2" value="">
+                        </div>
+                    </form>
+                </div>
+
+                <h2>NEXT SHOW: 4/12/2015 - <b>THE ROCK 'N ROLL RUMBLE</b> @ TT the Bear's - Cambridge, MA</h2>
+                <p>booking: bandwithouthands @ gmail dot com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer wrapper">
+        <!-- dunno -->
+        <p class="credits">Logo by Nikki Anguish @ <a href="http://www.daykamp.com">Daykamp Creative</a> - glass photos by <a href="http://www.brendajacobsphotography.com">Brenda Jacobs Photography</a> - site design and construction by <a href="https://www.facebook.com/akismawins">Jess Jacobs</a></p>
+    </div>
+
+<!--
             <aside>
                 <h3>Mailing list:</h3>
-                <!-- Begin MailChimp Signup Form -->
                 
-                <div id="mc_embed_signup">
-                <form action="http://bandwithouthands.us3.list-manage1.com/subscribe/post?u=b06f19e4a5b5c9c20d101b068&amp;id=804a44edf2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div class="mc-field-group">
-                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                </div>
                 
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_b06f19e4a5b5c9c20d101b068_804a44edf2" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </form>
-                </div>
-                <script type="text/javascript">
+                
+                
+            </aside>
+            <aside class="dates">
+                <h3>Shows:</h3>
+                
+
+                <p>1/22 - <a href="https://www.facebook.com/events/1513365015598681/">Digital Ear Punch presents BWH</a> - The Parlour, Providence RI w/The Difference Engine and Big Time Kill</p>  
+
+                
+                <p>1/30 - <a href="https://www.facebook.com/events/1591232987771200/">YES ALL WOMEN BOSTON MEGA BILL</a> - TT the Bear's - 7pm Cambridge MA</a></p>
+
+                <p>2/27 - <a href="#">Club Bohemia</a> w/Pyschic Dog, Kill Matilda - 8pm, Cambridge MA</p>
+                <p>3/13 - <a href="https://www.facebook.com/events/1567341306815480/">THERE GOES THE NEIGHBORHOOD show @ Sally O'Brien's</a> w/Thrust Club, Unstraight, and Vary Lumar DJ sets - 9pm, Somerville MA</p>
+            </aside>
+            <aside>
+                <h3>About BWH</h3>
+                
+        </div> 
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3></h3>
+                <p>Booking and other inquiries: <a href="mailto:bandwithouthands@gmail.com">bandwithouthands at gmail dot com</a></p>
+            </footer>
+        </div>
+
+-->
+        <script src="js/vendor/jquery-2.1.0.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
                 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
                 try {
                     var jqueryLoaded=jQuery;
@@ -352,51 +346,6 @@
                 }
 
                 </script>
-                <!--End mc_embed_signup-->
-            </aside>
-            <aside class="dates">
-                <h3>Shows:</h3>
-                <p>1/22 - <a href="https://www.facebook.com/events/1513365015598681/">Digital Ear Punch presents BWH</a> - The Parlour, Providence RI w/The Difference Engine and Big Time Kill</p> 
-                <p>1/30 - <a href="https://www.facebook.com/events/1591232987771200/">YES ALL WOMEN BOSTON MEGA BILL</a> - TT the Bear's - 8pm SHARP Cambridge MA</a></p>
-                <p>3/13 - <a href="https://www.facebook.com/events/1567341306815480/">THERE GOES THE NEIGHBORHOOD show @ Sally O'Brien's</a> w/Thrust Club, Unstraight, and Vary Lumar DJ sets - 9pm, Somerville MA</p>
-                <p>3/27 - <a href="https://www.facebook.com/events/1567341306815480/">O'Brien's</a> w/Zip-Tie Handcuffs, BDSX, Duncan Disorderly - 9pm, Boston MA</p>
-            </aside>
-            <aside>
-                <h3>About BWH</h3>
-                <p class="bio">Band Without Hands was a plan hatched in Vacationland… which quickly grew from Brien Sweet and Jess Jacobs working with samples and drum machines to a rock monster additionally fueled by Nick Martinelle’s double kicking feet and John McKusick’s guitar wizardry. At once political and emotionally vulnerable, the hard rock fabric is interwoven with elements of new wave, industrial, and trip hop, creating a unique sound that infuses the audience with excitement. With members influenced by pretty much every genre under the sun, Band Without Hands draws from a vast palette to create cohesive, intriguing, adrenaline-fueled social and emotional commentary. The band loves playing live, loves supporting our brothers and sisters in our beloved music scene, and loves connecting with area musicians and music lovers alike!</p>
-        </div> <!-- #main -->
-
-        <div class="singing-at-each-other">
-            <div class="main wrapper clearfix">
-                
-            </div>
-        </div>
-
-        <div class="black-and-white">
-            <div class="main wrapper clearfix">
-                
-            </div>
-        </div>
-
-        <div class="hands">
-            <div class="main wrapper clearfix">
-                
-            </div>
-        </div>
-
-        <div class="main-container">
-            
-        </div> <!-- #main-container -->
-
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3></h3>
-            </footer>
-        </div>
-
-        <script src="js/vendor/jquery-2.1.0.js"></script>
-
-        <script src="js/main.js"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

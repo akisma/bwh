@@ -71,7 +71,7 @@ $(document).ready(function(){
 		photos: new BWH.photoModulator()
 	};
 
-	BWH.widgets.body.initialize({ $slideshow: $('.js-slideshow').eq(0) });
+	//BWH.widgets.body.initialize({ $slideshow: $('.js-slideshow').eq(0) });
 
 	//delay the photos so they don't move at the same time
 	

@@ -94,7 +94,7 @@ body {
 .top-menu a {
 	/* MEDIA QUERY */
 	display: inline-block;
-	padding: 10px 25px;
+	padding: 10px 15px;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 20px;
@@ -118,7 +118,7 @@ body {
 	background: transparent url('../img/logo.png') no-repeat 0 0;
 	background-size: cover;
 	text-indent: -9999px;
-	width: 3em;
+	width: 3.2em;
 	height: 1.4em;
 	/*position: absolute; MEDIA QUERY */
 	margin: 0 auto;
@@ -132,7 +132,7 @@ body {
 
 .main a,
 .main a:visited {
-	color: #222222;
+	color: #44C1F9;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -144,7 +144,7 @@ body {
 .footer {
 	height: 50px;
 	position: fixed; bottom: 0;
-	background-color: rgba(107, 107, 107, .8);
+	background-color: rgba(107, 107, 107, 1);
 	z-index: 100;
 	font-family: 'fira-sans';
 	font-size: 10px;
@@ -171,6 +171,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 0;
+	background-color: black;
 }
 
 .body-slideshow .slide {
@@ -261,61 +262,95 @@ body {
 
 /* SHIT TO HIDE/CHANGE ON MOBILE */
 
-.home h2 {
-	margin: .83em 1em;
-  	line-height: 1.3em;
-}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
 
-.pane {
-	margin: 0 1em;
-}
+	.home h2 {
+		margin: .83em 1em;
+	  	line-height: 1.3em;
+	}
 
-.photos {
-	display: none;
-}
+	.pane {
+		margin: 0 0 0 10%;
+		width: 90%;
+	}
 
-.logo {
-	width: 380px;
-}
+	.photos {
+		display: block;
+		overflow: hidden;
+	}
 
-.top-menu {
-	position: relative;
-}
+	.photos .slide {
+		width: 26em;
+	}
 
-.top-menu ul li {
-	display: inline;
-	clear: none;
-	margin-left: 0;
-}
+	.logo {
+		width: 380px;
+		margin: 0 1em;
+		position: static;
+	}
 
-.top-menu ul li.fb-nav {
-	margin-left: 1.5em;
-	clear: both;
-}
+	.top-menu {
+		position: fixed;
+		width: 100%;
+	}
 
-.go-home {
-	position: static;
-}
+	.top-menu ul {
+		width: 16.8em;
+		overflow: hidden;
+	}
 
-.body-slideshow {
-	height: 68em;
-	width: 26em;
-}
+	.top-menu ul li {
+		display: inline;
+		clear: none;
+		margin-left: 0;
+	}
 
-.footer .credits {
-	width: auto;
-}
+	.top-menu ul li.fb-nav {
+		margin-left: 6.5em;
+		clear: both;	
+	}
 
-.top-menu {
-	width: 100%;
-}
+	.top-menu .go-home {
+		display: none;
+	}
 
-.top-menu ul {
-	width: 90%;
-}
+	.main {
+		top: 10em;
+	}
 
-.feature {
-	width: 26em;
+	.body-slideshow {
+		height: 68em;
+		width: 26em;
+	}
+
+	body .footer {
+		width: 100%;
+	}
+
+	.footer .credits {
+		width: 80%;
+		margin: 0 10%;
+		text-align: center;
+	}
+
+	.feature {
+		width: 26em;
+	}
+
+	.home h2 {
+		display: block;
+	}
+
+	.home h2 span {
+		display: block;
+		clear: both;
+	}
+
+	.mailing-list {
+		clear: both;
+	}
 }
 
 /* LARGE FORMAT SPECIFIC STYLES */
@@ -362,6 +397,8 @@ body {
 
 	.press {
 		width: 70%;
+		overflow: scroll;
+  		height: 90em;
 	}
 
 	.logo {
@@ -381,7 +418,7 @@ body {
 	}
 
 	.top-menu ul {
-		width: 85%;
+		width: 78%;
 	}
 
 	.top-menu ul li {

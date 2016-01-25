@@ -42,6 +42,7 @@
 
 body {
 	position: relative;
+	background-color: black;
 }
 
 .slide1 {
@@ -383,7 +384,7 @@ and (max-device-width : 568px) {
 	}
 
 	.shows {
-		width: 36em;
+		width: 48em;
 		margin: 0 auto;
 	}
 
@@ -438,6 +439,7 @@ and (max-device-width : 568px) {
 	}
 
 	.feature {
-		width: auto;
+		width: 70%;
+    	margin: 0 auto;
 	}
 }

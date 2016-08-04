@@ -15,8 +15,11 @@
   "bugs": {
     "url": "https://github.com/akisma/bwh/issues"
   },
-  "homepage": "https://github.com/akisma/bwh",
+  "homepage": "https://bandwithouthands.com",
   "dependencies": {
-    "http-server": "^0.8.0"
+    "http-server": "^0.8.0",
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0"
   }
 }
+
